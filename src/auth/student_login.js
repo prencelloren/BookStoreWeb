@@ -21,7 +21,7 @@ export const Signupscreen = () => {
         } else {
             studentLogin(email, password);
             if (state.email == email && state.password == password) {
-                history.push({ pathname: "/" })
+                history.push({ pathname: "/studentpage" })
             } else {
 
             }
